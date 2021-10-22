@@ -1,0 +1,49 @@
+<%- include ../partials/header.ejs %>
+
+<%- include ../partials/main_nav.ejs %>
+  
+
+  <!-- Main Content -->
+  <main class="container">
+    <head>
+      <link href="Assets/css/styles.css" rel="stylesheet" type="text/css">
+    </head>
+    <div class="jumbotron">
+      <header>
+      <h1 class="display-4"><center>Welcome to the <%= title %> page</center></h1>
+      </header>
+    
+    </div>
+
+    <div style="border-style: solid;">
+      <form action="/home" id="Contact" name="Contact" onsubmit="return checkValidity()">
+        <fieldset id="userInput">
+          <legend><h2>Please fill in all the required fields</h2></legend>
+          <br>
+          <label for="FirstName">First Name:</label>&nbsp; <input id="firstName" name="firstName" type="text" placeholder="First name"><br><br>
+          <label for="LastName">Last Name:</label>&nbsp; <input id="lastName" name="lastName" type="text" placeholder="Last name"><br><br>
+          <label for="contactNumber">Contact Number:</label>&nbsp; <input id="contactNumber" name="contactNumber" type="number"><br><br>
+          <label for="EmailAddress">Email Address:</label>&nbsp; <input id="emailAddress" name="emailAddress" type="email" placeholder="someone@email.com"><br><br>
+          <label for="Message">Message:</label>&nbsp; <textarea id="message" name="message" rows="5" cols="50"></textarea><br>
+          <center>
+            <input id="submitRequest" type="submit" value="Submit Request">
+          </center>
+        </fieldset>
+      </form>
+    </div>
+
+    <div class="panelContainer">
+      <br><h2>Contact Us</h2>
+        <div id="contactInformation">
+          Full Name: Henry Pan<br><br>
+          Email: hpan21@my.centennialcollege.ca<br><br>
+          Contact Number: 416-000-0000
+          <br><br><br><br><br><br><br>
+        </div>
+    </div>
+    <script src="/Assets/scripts/contact.js"></script>
+  </main>
+  
+<%- include ../partials/bottom_nav.ejs %>  
+
+<%- include ../partials/footer.ejs %>

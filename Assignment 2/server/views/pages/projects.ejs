@@ -1,0 +1,49 @@
+<%- include ../partials/header.ejs %>
+
+<%- include ../partials/main_nav.ejs %>
+  
+
+
+  <!-- Main Content -->
+  <main class="container">
+    <head>
+      <link href="Assets/css/styles.css" rel="stylesheet" type="text/css">
+    </head>
+    <div class="jumbotron">
+      <header>
+      <h1 class="display-4"><center>Welcome to the <%= title %> page</center></h1>
+      </header>
+    
+    </div>
+
+    <div class="projects">
+      <table border="1">
+        <tr>
+          <td><p>This is a 2D platformer game that I have recently begun working on. The goal of this game is for the player to use the environment to reach the end point while also avoiding obstacles such as traps. This game is currently a work in progress and the final product will have a better design and more mechanics.</p><br>
+          Here is a link to the most recent build:
+          <br><a href="https://Deadshadow9999.github.io" target="blank">Deadshadow9999.github.io</a>
+          </td>
+          <td><center><img src="Assets/images/projectImage_1.PNG"></center></td>
+        </tr>
+
+        <tr>
+          <td><p>This game is based on a 4 player version of "Pong". It is a 2 players versus 2 players game that involves pushing the ball past the opponent's defenses. Powerups were also implemented to grant the user a variety of abilities such as increased speed or decreased speed for the opponent.</p><br>
+          </td>
+          <td><center><img src="Assets/images/projectImage_2.PNG"></center></td>
+        </tr>
+
+        <tr>
+          <td><p>This was one of my attempts at creating a 3D character. The final product is a 3D model of a soldier.</p><br>
+          </td>
+          <td><center><img src="Assets/images/projectImage_3.PNG"></center></td>
+        </tr>
+
+      </table>
+      <br><br><br>
+    </div>
+    
+  </main>
+  
+<%- include ../partials/bottom_nav.ejs %>  
+
+<%- include ../partials/footer.ejs %>

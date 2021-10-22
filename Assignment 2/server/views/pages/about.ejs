@@ -1,0 +1,41 @@
+<%- include ../partials/header.ejs %>
+
+<%- include ../partials/main_nav.ejs %>
+
+  <!-- Main Content -->
+  <main class="container">
+    <div class="jumbotron">
+      <header>
+      <h1 class="display-4"><center>Welcome to the <%= title %> page</center></h1>
+      </header>
+    
+    </div>
+    
+    <div class="aboutMe">
+      <table border="1" bordercolor="black" width="100%">
+        <tr>
+          <td width="50%"><strong>Name:</strong>  Henry Pan</td>
+          <td width="50%"><center><img src="Assets/images/personalPhoto.jpg" width="300" height="400"></center></td>
+        </tr>
+        <tr>
+          <td colspan="2"><strong>Who am I?</strong><br><br>
+            <p>
+              I am currently a student at Centennial College and my goal is to learn how to design video games. My hobbies include baseball, reading books, and playing video games.
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <strong>For more information please view my resume</strong><br>
+            <a href="Assets/pdf/Resume.pdf" target="blank">View Resume</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+  </main>
+  
+<%- include ../partials/bottom_nav.ejs %>  
+
+<%- include ../partials/footer.ejs %>
+  

@@ -1,0 +1,35 @@
+/* File Name: styles.css
+   Student Name: Henry Pan
+   Student ID: 301142574
+   Date: Oct 2, 2021
+*/
+
+table{
+    border-collapse: separate;
+  border-spacing: 0 20px;
+  width: 100%;
+  border-color:black;
+}
+
+td{
+    width: 50%;
+}
+
+/* Set all images to 600x400 pixels */
+img{
+    width: 600px;
+    height: 400px;
+}
+
+/* Replaces all list points with animated bullet points */
+ul{
+    list-style-image: url("/Assets/images/animated-bullet-10.gif");
+}
+
+li{
+    padding-top: 40px;
+}
+
+#contactInformation{
+    border-style: solid;
+}
