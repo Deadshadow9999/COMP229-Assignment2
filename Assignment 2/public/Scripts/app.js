@@ -1,3 +1,8 @@
+// File: app.js
+// Student Name: Henry Pan
+// Student ID: 301142574
+// Date: Oct 24, 2021
+
 // IIFE -- Immediately Invoked Function Expression
 (function(){
 
